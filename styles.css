@@ -4,7 +4,7 @@
 }
 body {
   font-family: "Space Mono";
-  background: url(/assets/images/logo.svg) #afd5d5 no-repeat 50% 50px;
+  background: url(images/logo.svg) #afd5d5 no-repeat 50% 50px;
 }
 button {
   font-family: "Space Mono";
