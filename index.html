@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles/reset.css" />
+    <link rel="stylesheet" href="/assets/styles/styles.css" />
+    <title>Tip calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="for-inputs">
+          <label for="bill">Bill</label>
+        <input class="bill" type="number" placeholder="0" />
+        <img
+          class="icon"
+          src="/assets/images/icon-dollar.svg"
+          alt="dollar icon"
+          />
+        </div>
+        <div class="select-tip">
+          <label for="tip">Select Tip %</label>
+          <div class="tip-buttons">
+            <button class="percent" value="5">5%</button>
+            <button class="percent" value="10">10%</button>
+            <button class="percent" value="15">15%</button>
+            <button class="percent" value="25">25%</button>
+            <button class="percent" value="50">50%</button>
+            <input class="percent-custom" type="number" placeholder="Custom"></input>
+          </div>
+        </div>
+        <div class="for-inputs">
+          <span class="zero">Can't be zero</span>
+          <img class="icon" src="/assets/images/icon-person.svg" alt="person icon">
+          <label for="people">Number of People</label>
+          <input class="people" type="number" placeholder="0">
+        </div>
+      </div>
+      <div class="green">
+        <div class="amount">
+          <div>
+            <p>Tip Amount</p>
+            <span>/ person</span>
+          </div>
+          <span class="tip">$0.00</span>
+        </div>
+        <div class="amount">
+          <div>
+            <p>Total</p>
+            <span>/ person</span>
+          </div>
+          <span class="total">$0.00</span>
+        </div>
+        <button class="reset reset-bg ">reset</button>
+      </div>
+    </main>
+    <script src="/assets/scripts/scripts.js"></script>
+  </body>
+</html>
+
+
